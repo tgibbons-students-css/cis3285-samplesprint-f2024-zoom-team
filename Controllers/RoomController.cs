@@ -18,6 +18,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Create
+        // Changes for Sprint 1 -- User Story -- Michael Ludwig
+        // Changes Sprint 1 -- As a message posting user, I want to create rooms for categorizing conversations -- Michael Ludwig
         public ActionResult Create()
         {
             return View();
