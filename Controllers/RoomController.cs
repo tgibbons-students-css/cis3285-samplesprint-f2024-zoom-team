@@ -6,6 +6,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
     public class RoomController : Controller
     {
         // GET: RoomController
+        // Changes for Sprint 2 -- User Story -- Briston Domino
+        // Changes Sprint 2 -- As a message reading user, I want to filter message content so that it is appropriate -- Briston Domino
         public ActionResult Index()
         {
             return View();
