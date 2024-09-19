@@ -20,8 +20,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Create
-        // Changes for Sprint 1 -- User Story -- Michael Ludwig
         // Changes Sprint 1 -- As a message posting user, I want to create rooms for categorizing conversations -- Michael Ludwig
+        // Changes for Sprint 2 -- As a system admin, I want to be able to set a limit to the number of users in any one room -- Michael Ludwig
         public ActionResult Create()
         {
             return View();
@@ -43,8 +43,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Edit/5
-        // Changes for Sprint 1 -- User Story -- Michael Ludwig
         // Changes Sprint 1 -- As a message posting user, I want to create rooms for categorizing conversations -- Michael Ludwig
+        // Changes for Sprint 2 -- As a system admin, I want to be able to set a limit to the number of users in any one room -- Michael Ludwig
         public ActionResult Edit(int id)
         {
             return View();
