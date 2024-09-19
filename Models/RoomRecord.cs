@@ -9,6 +9,8 @@
         {
             Name = name;
             RoomId1 = roomId;
+            //Add new atribute for userLimit here
+
         }
 
         int RoomId;
