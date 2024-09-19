@@ -10,6 +10,8 @@
             AuthorName = authorName;
         }
 
+        // Changes for Sprint 2 -- User Story -- Briston Domino
+        // Changes Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently.
         public int RoomID
         {
             get;

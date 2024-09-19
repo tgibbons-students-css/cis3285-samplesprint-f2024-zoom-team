@@ -51,6 +51,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // POST: MessageController/Edit/5
+        // Changes for Sprint 2 -- User Story -- Briston Domino
+        // Changes Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
