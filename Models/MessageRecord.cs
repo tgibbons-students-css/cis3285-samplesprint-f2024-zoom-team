@@ -2,6 +2,7 @@
 {
     public class MessageRecord
     {
+        // Changes for Sprint 2 -- As a message poster, I want to send markdown text that will be correctly formatted -- Michael Ludwig
         public MessageRecord(int roomID, string authorName, string text)
         {
             RoomID = roomID;
@@ -15,6 +16,7 @@
             private set;
         }
 
+        // Changes for Sprint 2 -- As a message poster, I want to send markdown text that will be correctly formatted -- Michael Ludwig
         public string Text
         {
             get;
