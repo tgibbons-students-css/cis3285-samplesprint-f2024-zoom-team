@@ -4,6 +4,10 @@ using System.Diagnostics;
 
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
+    /// <summary>
+    /// Developer: Briston Domino
+    /// </summary>
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
