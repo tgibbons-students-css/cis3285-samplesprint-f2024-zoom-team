@@ -28,6 +28,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // POST: RoomController/Create
+        // Changes for Sprint 2D -- User Story -- Briston Domino
+        // Changes Sprint 2D -- As a system admin, I want to be able to set a limit to the number of users in any one room.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
