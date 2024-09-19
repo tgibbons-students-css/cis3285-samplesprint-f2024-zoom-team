@@ -2,7 +2,7 @@
 {
     public class RoomRecord
     {
-        // Changes for Sprint 1 -- As a mesage posting user, I want to create rooms for categorizing conversations
+        // Changes for Sprint 1 -- As a mesage posting user, I want to create rooms for categorizing conversations -- Briston Domino
         public RoomRecord(string name, int roomId)
         {
             Name = name;

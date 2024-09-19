@@ -66,6 +66,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Delete/5
+        // Changes for Sprint 1 -- User Story -- Briston Domino
+        // Changes Sprint 1 -- As a message reading user, I want to view a list of rooms that represent conversations.
         public ActionResult Delete(int id)
         {
             return View();
