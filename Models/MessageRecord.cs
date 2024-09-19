@@ -2,6 +2,7 @@
 {
     public class MessageRecord
     {
+        // Changes for Sprint 1 -- As a message reading user, I want to view a list of rooms that represent conversations -- Michael Ludwig
         public MessageRecord(int roomID, string authorName, string text)
         {
             RoomID = roomID;
@@ -20,7 +21,7 @@
             get;
             private set;
         }
-
+        // Changes for Sprint 1 -- As a message reading user, I want to view a list of rooms that represent conversations -- Michael Ludwig
         public string AuthorName
         {
             get;
