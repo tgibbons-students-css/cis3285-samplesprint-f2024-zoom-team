@@ -1,6 +1,17 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
+// Changes for Sprint #2 -- User Story 2D -- Mikita Puntus
+// Changes Sprint 2D -- As a system admin, I want to be able to set a limit to the number of users in any one room. -- Mikita Puntus
+
+/// <summary>
+/// Developer: Mikita Puntus
+/// in Controllers: public class RoomController : Controller
+///   public ActionResult Create(IFormCollection collection)
+///   public ActionResult Edit(int id, IFormCollection collection)
+/// </summary>
+
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class RoomController : Controller
@@ -28,6 +39,10 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // POST: RoomController/Create
+
+        // Changes for Sprint 2 -- User Story -- Mikita Puntus
+        // Changes Sprint 2D -- As a system admin, I want to be able to set a limit to the number of users in any one room. -- Mikita Puntus
+        // Made some chamges
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -51,6 +66,10 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // POST: RoomController/Edit/5
+
+        // Changes for Sprint 2 -- User Story -- Mikita Puntus
+        // Changes Sprint 2D -- As a system admin, I want to be able to set a limit to the number of users in any one room. -- Mikita Puntus
+        // Made some chamges
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
