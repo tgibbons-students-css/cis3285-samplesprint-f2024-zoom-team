@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
+
+
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class MessageController : Controller
@@ -13,6 +16,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // GET: MessageController/Details/5
         // Changes for Sprint 1 -- As a message reading user, I want to view a list of rooms that represent conversations -- Michael Ludwig
+
         public ActionResult Details(int id)
         {
             return View();
@@ -21,6 +25,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Create
         // Changes for Sprint 1 -- User Story -- Briston Domino
         // Changes Sprint 1 -- As a message reading user, I want to view a list of rooms that represent conversations.
+
         public ActionResult Create()
         {
             return View();
