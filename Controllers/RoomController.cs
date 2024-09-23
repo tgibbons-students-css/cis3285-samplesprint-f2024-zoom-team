@@ -6,6 +6,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
     public class RoomController : Controller
     {
         // GET: RoomController
+        // Changes for Sprint 2 -- As a message reading user, I want to filter message content so that it is appropriate -- Michael Ludwig
         public ActionResult Index()
         {
             return View();
@@ -22,6 +23,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Create
         // Changes for Sprint 1 -- User Story -- Michael Ludwig
         // Changes Sprint 1 -- As a message posting user, I want to create rooms for categorizing conversations -- Michael Ludwig
+        // Changes for Sprint 2 -- As a message reading user, I want to filter message content so that it is appropriate -- Michael Ludwig        
         public ActionResult Create()
         {
             return View();
