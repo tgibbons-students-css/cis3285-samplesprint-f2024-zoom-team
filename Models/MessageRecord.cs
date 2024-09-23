@@ -9,7 +9,8 @@
             Text = text;
             AuthorName = authorName;
         }
-
+        
+        // Changes for Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently. -- Michael Ludwig
         public int RoomID
         {
             get;

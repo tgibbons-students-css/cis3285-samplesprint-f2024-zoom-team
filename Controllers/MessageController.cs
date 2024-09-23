@@ -28,7 +28,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // POST: MessageController/Create
         // Changes for Sprint 1 -- As a message reading user, I want to view a list of rooms that represent conversations -- Michael Ludwig
-
+        // Changes for Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently. -- Michael Ludwig
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -45,12 +45,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // GET: MessageController/Edit/5
         // Changes for Sprint 1 -- As a message reading user, I want to view a list of rooms that represent conversations -- Michael Ludwig
+        // Changes for Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently. -- Michael Ludwig
         public ActionResult Edit(int id)
         {
             return View();
         }
 
         // POST: MessageController/Edit/5
+        // Changes for Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently. -- Michael Ludwig
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
